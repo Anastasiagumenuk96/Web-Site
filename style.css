@@ -74,16 +74,16 @@ footer {
 #foot-menu-block a {
     color: white;
     font-family: 'Abel', sans-serif;
+    text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
-    right: 5px;
-    text-decoration: none;
+    transition: background-size .3s;
   }
 
 #foot-menu-block a:hover, a:focus {
-    background-size: 100%, 1px;
+    background-size: 100%, 0.1px;
   }
 
 #foot-menu-block li {
