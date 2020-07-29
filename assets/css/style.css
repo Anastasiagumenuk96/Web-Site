@@ -3,7 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 
     font-size: 15px;
-    line-height: 1.6;
+    line-height: 1.9;
     color: #333;
 }
 
@@ -100,12 +100,6 @@ a:-webkit-any-link {
     left: 0;
     right: 0;
     z-index: 1000;
-}
-
-.header__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .header__logo {
