@@ -26,6 +26,31 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+
+/* Button */
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+
+    border: 3px solid #fff;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover {
+    background-color: #fadab0;
+    color: #333;
+    border: 3px solid #fadab0;
+}
+
+
 /* Container */
 .container {
     width: 100%;
@@ -165,32 +190,6 @@ a:-webkit-any-link {
     color: #fadab0;
 }
 
-
-/* Button */
-.btn {
-    display: inline-block;
-    vertical-align: top;
-    padding: 8px 30px;
-
-    border: 3px solid #fff;
-
-    font-size: 14px;
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-
-    transition: background .1s linear, color .1s linear;
-}
-
-.btn:hover {
-    background-color: #fadab0;
-    color: #333;
-    border: 3px solid #fadab0;
-}
-
-
-
 /* Slider */
 .slider {
     width: 100%;
@@ -242,4 +241,13 @@ a:-webkit-any-link {
     font-weight: 700;
 }
 
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+  }
 
