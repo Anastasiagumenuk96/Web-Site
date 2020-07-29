@@ -17,6 +17,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+a {
+    color: white;
+}
+
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+}
 
 /* Container */
 .container {
@@ -51,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__title {
     color: #fff;
-    font-size: 150px;
+    font-size:  160px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
@@ -106,11 +114,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+.navbar-header {
+    color: #fff;
+}
+
 
 /* Nav */
 .nav {
     font-size: 14px;
     text-transform: uppercase;
+}
+
+.navbar-nav {
+    flex-direction: row;
 }
 
 .nav__link {
