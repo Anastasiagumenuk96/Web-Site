@@ -137,24 +137,8 @@ button:focus {
     color: #fff;
 }
 
-@media (max-width: 1920px) {
-
-}
-
-@media (max-width: 1600px) {
-
-}
-
-@media (max-width: 1140px) {
-
-}
-
-@media (max-width: 930px) {
-
-}
-
 @media (max-width: 765px) {
-.navbar-nav {background: gray;}
+.navbar-nav {background: black;}
 }
 
 .nav {
