@@ -195,6 +195,10 @@ button:focus {
 .navbar-nav {background: black;}
 }
 
+.mb-5, .my-5 {
+    margin-bottom: 0 !important;
+}
+
 .nav {
     font-size: 14px;
     text-transform: uppercase;
@@ -262,6 +266,10 @@ margin-right: 3rem;
 
 .nav__link.active {
     color: #ffdcdc;
+}
+
+.p-3 {
+    padding: 0 !important;
 }
 
 /* Slider */
