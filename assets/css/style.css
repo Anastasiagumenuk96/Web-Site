@@ -82,6 +82,10 @@ button:focus {
     margin: 0 auto;
 }
 
+.create-acc {
+    color: #96c0ff !important;
+}
+
 .custom-control-input:checked~.custom-control-label::before {
     color: #fff;
     border-color: #cccccc;
