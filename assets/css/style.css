@@ -137,17 +137,38 @@ button:focus {
     color: #fff;
 }
 
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1600px) {
+
+}
+
+@media (max-width: 1140px) {
+
+}
+
+@media (max-width: 930px) {
+
+}
+
+@media (max-width: 765px) {
+.navbar-nav {background: gray;}
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
 .navbar-header {
     color: #fff;
     font-weight: 700;
 }
 
-
 /* Nav */
-.nav {
-    font-size: 14px;
-    text-transform: uppercase;
-}
+
 
 .navbar-brand {
 margin-right: 3rem; 
