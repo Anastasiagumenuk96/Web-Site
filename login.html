@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <title>Rent</title>
+    <title>Log In</title>
 </head>
 <body>
 
@@ -27,7 +27,7 @@
                      <div  class="navbar-collapse nav-collapse collapse" id="navbarSuport" aria-expanded="true">
                         <ul class="nav navbar-nav" id="nav">
                             <li class=" nav-item">
-                                <a class="nav__link nav-link active" href="#">About</a>
+                                <a class="nav__link nav-link active" href="index.html">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav__link nav-link" href="#">Service</a>
@@ -36,7 +36,7 @@
                                 <a class="nav__link nav-link" href="#">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav__link nav-link" href="login.html">My Account</a>
+                                <a class="nav__link nav-link" href="#">My Account</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav__link nav-link" href="#">Contact</a>
@@ -49,11 +49,40 @@
     </div>
 </header>
 
-<div class="intro">
+<div class="intro-login">
     <div class="container-fluid" id="intro">
         <div class="intro__inner" id="inner">
-            <h1 class="intro__title unselectable">Welcome</h1>
-            <a class="btn unselectable" href="#" id="rent">Go For Rent</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <form class="login-form" role="form">
+                    <div class="form-group">
+                        <label for="uname" class="text-uppercase"><b>Username</b></label>
+                        <input type="text" class="form-control input-xs" placeholder="Enter Username" name="uname" required>
+
+                        <label for="psw" class="text-uppercase"><b>Password</b></label>
+                        <input type="password" class="form-control input-xs" placeholder="Enter Password" name="psw" required>
+                            <div class="row">
+                                <div class="col-4">
+                                </div>
+                                <div class="col-4">
+                                </div>
+                                <div class="col-4  text-right">
+                                    <a class="btn" type="submit">Login</a>
+                                </div>
+                            </div>
+                        <div class="custom-control custom-checkbox d-flex justify-content-between">
+                            <input type="checkbox" class="custom-control-input" id="remember"> 
+                            <label class="custom-control-label" for="remember">Remember me</label>
+                        </div>
+                </form>
+            </div>
+            <div class="col-md-3"></div>
+        
         </div>
     </div>
 
