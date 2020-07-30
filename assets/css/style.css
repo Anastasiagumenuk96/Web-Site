@@ -60,7 +60,9 @@ button:focus {
     margin: 0 auto;
 }
 
-
+.fa {
+    color: white;
+}
 
 /* Intro */
 .intro {
@@ -137,6 +139,7 @@ button:focus {
 
 .navbar-header {
     color: #fff;
+    font-weight: 700;
 }
 
 
@@ -159,10 +162,12 @@ margin-right: 3rem;
     background: transparent;
     padding: .25rem .75rem;
     font-size: small;
+    justify-content: right;
 }
 
 .navbar-toggler-icon {
     background: url("../images/menu.png");
+    fill: white;
 }
 
 .nav__link {
