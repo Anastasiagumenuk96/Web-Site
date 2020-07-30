@@ -56,28 +56,33 @@
     </div>
 
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-3"></div>
-            <div class="col-md-6 shadow p-3 mb-5 bg-white rounded">
-                <form class="login-form" role="form">
+            <div class="col-md-6 shadow p-3 mb-5 bg-white rounded align-self-center">
+                <form class="login-form  align-middle" role="form">
                     <div class="form-group">
-                        <label for="uname" class="text-uppercase"><b>Username</b></label>
-                        <input type="text" class="form-control input-xs" placeholder="Enter Username" name="uname" required>
+                        <label for="uname" class="text-uppercase"><b>Mail</b></label>
+                        <input type="text" class="form-control input-xs" placeholder="Enter Mail" name="uname" required>
 
                         <label for="psw" class="text-uppercase"><b>Password</b></label>
                         <input type="password" class="form-control input-xs" placeholder="Enter Password" name="psw" required>
-                            <div class="row">
-                                <div class="col-6">
-                                </div>
-                                <div class="col-6  text-right">
-                                    <a class="btn" type="submit">Login</a>
+                        <div class="row"> 
+                            <div class="col-6 text-left">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="remember"> 
+                                    <label class="custom-control-label" for="remember">Remember me</label>
                                 </div>
                             </div>
-                        <div class="custom-control custom-checkbox d-flex justify-content-between">
-                            <input type="checkbox" class="custom-control-input" id="remember"> 
-                            <label class="custom-control-label" for="remember">Remember me</label>
+                            <div class="col-6"></div>
                         </div>
-                </form>
+                
+                         <a class="btn btn-log" type="submit">Sign In</a>
+                         <a class="btn btn-goog" type="submit">
+                            <span class="fa fa-google"></span>
+                         </a>
+                         
+                    </div>
+                </form> 
             </div>
             <div class="col-md-3"></div>
         

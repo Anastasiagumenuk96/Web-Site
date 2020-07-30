@@ -43,9 +43,21 @@ a:-webkit-any-link {
     transition: background .1s linear, color .1s linear;
 }
 
-.btn {
+.btn-log {
     border: 2px solid #cccccc;
     background: #cccccc;
+    color: white !important;
+    padding: 8px 39px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.btn-goog {
+    border: 2px solid #96c0ff;
+    background: #96c0ff;
+    padding: 8px 39px;
+    width: 100%;
+    margin-top: 1em;
 }
 
 .btn:hover {
@@ -56,6 +68,11 @@ a:-webkit-any-link {
 
 button:focus {
     outline: none; 
+}
+
+.col-6 {
+    margin-top: 0.2em;
+    text-align: center;
 }
 
 /* Container */
@@ -83,10 +100,14 @@ button:focus {
     color: white;
 }
 
+form {
+    margin-top: 0em;
+}
+
 .form-control {
     line-height: 2;
     padding-bottom: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
 }
 
 /* Intro */
@@ -175,13 +196,13 @@ button:focus {
 }
 
 .login-form {
-    background-color: white;
+    background: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255),rgb(255, 255, 255)) ;
     color: black;
     justify-content: center;
     font-family: 'Abel', sans-serif;
     font-size: 1.1em;
     font-weight: 100;
-    padding: 10%;
+    padding: 5%;
     width: auto;
     height: auto;
 }
