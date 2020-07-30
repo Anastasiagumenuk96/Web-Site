@@ -80,9 +80,8 @@ button:focus {
 
 .intro__inner {
     width: 100%;
-    max-width: 880px;
     margin: 0 auto;
-
+    justify-content: center;
     text-align: center;
 }
 
@@ -136,6 +135,10 @@ button:focus {
     font-weight: 700;
     color: #fff;
 }
+
+@media (max-width: 1300px) {
+    
+    }
 
 @media (max-width: 765px) {
 .navbar-header{margin-left: 12px;}
