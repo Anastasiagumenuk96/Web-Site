@@ -44,9 +44,9 @@ a:-webkit-any-link {
 }
 
 .btn:hover {
-    background-color: #fadab0;
+    background-color: #ffdcdc;
     color: #333;
-    border: 3px solid #fadab0;
+    border: 3px solid #ffdcdc;
 }
 
 button:focus {
@@ -96,7 +96,7 @@ button:focus {
 }
 
 .intro__title:hover{
-    color: #fadab0;
+    color: #ffdcdc;
     transition: color .5s linear;
 }
 
@@ -187,7 +187,7 @@ margin-right: 3rem;
     width: 100%;
     height: 3px;
 
-    background-color: #fadab0;
+    background-color: #ffdcdc;
     opacity: 0;
 
     position: absolute;
@@ -199,7 +199,7 @@ margin-right: 3rem;
 }
 
 .nav__link:hover {
-    color: #fadab0;
+    color: #ffdcdc;
 }
 
 .nav__link:hover:after,
@@ -208,7 +208,7 @@ margin-right: 3rem;
 }
 
 .nav__link.active {
-    color: #fadab0;
+    color: #ffdcdc;
 }
 
 /* Slider */
