@@ -17,6 +17,5 @@ window.onload = function() {
             div.style.height = "100vh";
             div.style.width = "100%";
         }
-        
     };
 };
