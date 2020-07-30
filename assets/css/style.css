@@ -26,6 +26,9 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+.acc {
+    color: #96c0ff !important;
+}
 
 /* Button */
 .btn {
@@ -80,10 +83,6 @@ button:focus {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.create-acc {
-    color: #96c0ff !important;
 }
 
 .custom-control-input:checked~.custom-control-label::before {
