@@ -138,6 +138,7 @@ button:focus {
 }
 
 @media (max-width: 765px) {
+.navbar-header{margin-left: 12px;}
 .navbar-nav {background: black;}
 }
 

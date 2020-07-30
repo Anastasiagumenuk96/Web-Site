@@ -4,18 +4,18 @@ window.onload = function() {
     
     button.onclick = function() {
 
-        if(div.style.background == "black") {
-            div.style.background = "transparent";
-            document.getElementById('inner').hidden = false;
-            div.style.height = "auto";
-            div.style.width = "auto";
-            document.getElementById('nav').style.background = "transparent";
-        }
-        else {
+        if(div.style.background != "black") {
             document.getElementById("inner").hidden = true;
             div.style.background = "black";
             div.style.height = "100vh";
             div.style.width = "100%";
+        }
+        else {
+            div.style.background = "transparent";
+            document.getElementById('inner').hidden = false;
+            div.style.height = "auto";
+            div.style.width = "100%";
+            document.getElementById('nav').style.background = "transparent";
         }
     };
 };
