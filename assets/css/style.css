@@ -153,11 +153,6 @@ button:focus {
 margin-right: 3rem; 
 }
    
-
-.navbar-nav {
-    flex-direction: row;
-}
-
 .navbar-toggler {
     background: transparent;
     padding: .25rem .75rem;
