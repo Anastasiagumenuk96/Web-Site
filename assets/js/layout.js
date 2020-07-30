@@ -9,9 +9,10 @@ window.onload = function() {
             document.getElementById('inner').hidden = false;
             div.style.height = "auto";
             div.style.width = "auto";
+            document.getElementById('nav').style.background = "transparent";
         }
         else {
-            document.getElementById('inner').hidden = true;
+            document.getElementById("inner").hidden = true;
             div.style.background = "black";
             div.style.height = "100vh";
             div.style.width = "100%";
