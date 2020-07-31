@@ -9,7 +9,8 @@ window.onload = function() {
             div.style.background = "black";
             div.style.height = "100vh";
             div.style.width = "100%";
-            document.getElementById("login-form").hidden = true;
+            document.getElementById("login-form").hidden = true; 
+            document.getElementById('all-log').style.background = "black"; 
         }
         else {
             div.style.background = "transparent";
@@ -18,6 +19,7 @@ window.onload = function() {
             div.style.width = "100%";
             document.getElementById('nav').style.background = "transparent";
             document.getElementById("login-form").hidden = false;
+            document.getElementById('all-log').style.background = "linear-gradient(rgb(207, 207, 207), rgb(255, 216, 206))";
         }
     };
 };
