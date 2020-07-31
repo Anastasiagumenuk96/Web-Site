@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script%7CMontserrat:400,700amp;subset=cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <title>Sign Up</title>
@@ -17,14 +17,14 @@
 <header class="header">
     <div class="container unselectable">
         <div class="header__inner">
-            <nav class="nav navbar navbar-expand-md" role="navigation">                
+            <nav class="nav navbar navbar-expand-md">                
                 <div class="container-fluid">
                         <a class="navbar-brand navbar-header" href="#">MyCar</a>
                         <button type="button" id="but" class="navbar-toggler" data-toggle="collapse"
                             data-target="#navbarSuport" aria-controls="navbarSuport" aria-expanded="false">
                             <span class="fa fa-bars"></span>
                         </button>
-                     <div  class="navbar-collapse nav-collapse collapse" id="navbarSuport" aria-expanded="true">
+                     <div  class="navbar-collapse nav-collapse collapse" id="navbarSuport" aria-expanded="true"  role="navigation">
                         <ul class="nav navbar-nav" id="nav">
                             <li class=" nav-item">
                                 <a class="nav__link nav-link" href="index.html">About</a>
@@ -59,49 +59,48 @@
         <div class="row align-items-center">
             <div class="col-md-2"></div>
             <div class="col-md-8 shadow bg-white rounded align-self-center">
-                <form class="login-form  align-middle" role="form" id="login-form">
+                <form class="login-form  align-middle" id="login-form">
                     <div class="form-group" id="form-group">
                         <div class="row">
                             <div class="col-6 text-left">
                                 <label for="fname" class="text-uppercase"><b>First Name</b></label>
-                                <input type="text" class="form-control input-xs" placeholder="Enter Name" name="fname" required>
+                                <input type="text" class="form-control input-xs" placeholder="Enter Name" id="fname" required>
                             </div>
                             <div class="col-6 text-left">
                                 <label for="lname" class="text-uppercase"><b>Last Name</b></label>
-                                <input type="text" class="form-control input-xs" placeholder="Enter Surname" name="lname" required>
+                                <input type="text" class="form-control input-xs" placeholder="Enter Surname" id="lname" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-6 text-left">
                                 <label for="city" class="text-uppercase"><b>City</b></label>
-                                <input type="text" class="form-control input-xs" placeholder="Enter City" name="city" required>
+                                <input type="text" class="form-control input-xs" placeholder="Enter City" id="city" required>
                             </div>
                             <div class="col-6 text-left">
                                 <label for="street" class="text-uppercase"><b>Street</b></label>
-                                <input type="text" class="form-control input-xs" placeholder="Enter Street" name="street" required>
+                                <input type="text" class="form-control input-xs" placeholder="Enter Street" id="street" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-6 text-left">
                                 <label for="mail" class="text-uppercase"><b>Mail</b></label>
-                                <input type="text" class="form-control input-xs" placeholder="Enter Mail" name="mail" required>
+                                <input type="text" class="form-control input-xs" placeholder="Enter Mail" id="mail" required>
                             </div>
                             <div class="col-6 text-left">
                                 <label for="phone" class="text-uppercase"><b>Phone</b></label>
-                                <input type="text" class="form-control input-xs" placeholder="Enter Phone" name="phone" required>
+                                <input type="text" class="form-control input-xs" placeholder="Enter Phone" id="phone" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-6 text-left">
                                 <label for="uname" class="text-uppercase"><b>Username</b></label>
-                                <input type="text" class="form-control input-xs" placeholder="Enter Username" name="uname" required>
+                                <input type="text" class="form-control input-xs" placeholder="Enter Username" id="uname" required>
                             </div>
                             <div class="col-6 text-left">
                                 <label for="psw" class="text-uppercase"><b>Password</b></label>
-                                <input type="password" class="form-control input-xs" placeholder="Enter Password" name="psw" required>
+                                <input type="password" class="form-control input-xs" placeholder="Enter Password" id="psw" required>
                             </div>
                         </div>
-
                         <div class="row"> 
                             <div class="col-6 text-left">
                                 <div class="custom-control custom-checkbox">
@@ -111,24 +110,22 @@
                             </div>
                             <div class="col-6"></div>
                         </div>
-                
-                         <a class="btn btn-log" type="submit">Sign UP</a>
-                         <a class="btn btn-goog" type="submit">
+                         <a class="btn btn-log">Sign UP</a>
+                         <a class="btn btn-goog">
                             <span class="fa fa-google"></span>
                          </a>
                          <div class="text-right">Do have an account?
                              <a class="acc" href="login.html">
                                  Sign In
                              </a>
-                        </div>
-                         
+                        </div>                     
                     </div>
                 </form> 
             </div>
             <div class="col-md-2"></div>
-        
         </div>
     </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

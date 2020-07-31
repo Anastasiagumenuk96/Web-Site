@@ -212,13 +212,9 @@ form {
     height: auto;
 }
 
-.login-block {
-    margin-top: 5em;
+@media (max-width: 1400px) {
+.login-block {margin-top: 5em;}
 }
-
-@media (max-width: 1300px) {
-    
-    }
 
 @media (max-width: 765px) {
 .navbar-header {margin-left: 12px;}
