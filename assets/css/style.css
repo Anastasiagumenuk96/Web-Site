@@ -124,8 +124,6 @@ form {
 
     background: url("https://i.ibb.co/98YXL4C/img.jpg") center no-repeat;
     -webkit-background-size: cover;
-    background-size: cover;
-    backdrop-filter: blur(5px);
 }
 
 .intro__inner {
@@ -145,7 +143,6 @@ form {
     background: linear-gradient(rgb(207, 207, 207), rgb(255, 216, 206));
     -webkit-background-size: cover;
     background-size: cover;
-    backdrop-filter: blur(5px);
 }
 
 .intro__title {
@@ -250,7 +247,6 @@ margin-right: 3rem;
 
 .navbar-toggler-icon {
     background: url("../images/menu.png");
-    fill: white;
 }
 
 .nav__link {
